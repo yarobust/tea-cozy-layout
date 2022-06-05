@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 56px; 
+}
+
+h4, figcaption {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 40px; 
+}
+
+/* header */
+
+header {
+    height: 69px;  
+    width: 100%; 
+    background-color: rgba(0, 0, 0);
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.nav_links li{
+    display: inline-block;
+    margin: 0 12px;
+    
+}
+
+.nav_links li a {
+    color: inherit;
+}
+
+/* main */
+main {
+    padding-top: 69px;
+    text-align: center;
+  
+}
+
+/* photo-hero */
+.photo-hero-text {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(./images/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.photo-legend {   
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-grow: 1;
+}
+
+/* tea information */
+
+.tea-information {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.photo-tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 50px;
+    margin-top: 15px;
+    
+}
+
+.photo-tea-container img{
+    height: 200px;
+    width: 300px;   
+}
+
+/* locations */
+.locations {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(./images/img-locations-background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+    
+}
+
+.locations-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 40px;
+}
+
+.locations-container section {
+    background-color: black;
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px 0;
+    
+}
+
+.locations-container section p {
+    line-height: 60px;
+}
+
+/* contacts information  */
+.contacts-information {
+    
+    text-align: center;
+    min-width: 100px;   
+    height: 200px;
+}
+
+.contacts-information>*{
+    margin-bottom: 15px;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 500px) {
+    .logo {
+        width: 90%;
+    }
+    .nav_links li{
+        margin: 0 3%;
+        
+    }
+} */
